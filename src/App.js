@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import './common.css';
 import Header from './components/Header.js';
-import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
+import {HashRouter as Router,Route,Switch} from 'react-router-dom';
 import Music_list from './config/music-list.js';
 import MusicList from './components/MusicList.js';
 import Player from './components/Player.js';
