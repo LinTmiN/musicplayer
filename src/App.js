@@ -147,7 +147,7 @@ class App extends Component{
                    
                     <Switch>
                        
-                       <Route path="musicplayer/:id" component={CommentBox}/>
+                       <Route path="/:id" component={CommentBox}/>
 
                        <Route path="/" render={()=><Player isPlay={this.state.isPlay} listContrl={this.listShowContrl} currentMusicItem={this.state.currentMusicItem}/>} /> 
                     </Switch>     
