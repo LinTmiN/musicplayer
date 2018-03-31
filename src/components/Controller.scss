@@ -1,0 +1,125 @@
+.components-controller{
+  width:100%;
+  position:absolute;
+  bottom:0;
+  box-sizing:border-box;
+  background:-webkit-linear-gradient(right,#FFF6F6,#FFFFFF);
+  text-align:center;
+  .icons-list{
+          display: inline-block;
+          position:absolute;
+          bottom:0;
+          left:0;
+          width: 50px;
+          height: 42px;
+          background: url('../images/icons-list2.svg') no-repeat;
+          background-size: 42px auto;
+          cursor:pointer;
+          margin:0 25px;  
+          margin-bottom:10px;
+          transition:all 0.2s ease
+  }
+  .icons-list:hover{opacity:0.5}
+  .contrl-button{
+    width:90%;
+    margin:0 auto;
+    margin-bottom:10px;
+      .musicprogress{
+        position:relative;
+        height:10px;
+      }
+      h3{
+
+        font-size:1.2rem;
+        margin-bottom:-5px;
+        font-weight:normal;
+        color:rgba(0,0,0,0.7)
+
+      }
+      span{
+          display:block;
+          font-size:0.5rem;
+          margin-bottom:10px;
+          color:rgba(0,0,0,0.5)
+      }
+      .musicTime{
+        font-size:0.2rem;
+        display:block;
+        position:absolute;
+        right:0;
+        color:#7F7B7B;
+        margin-bottom:5px;
+      }
+
+      .icons-prev{
+        margin-top:20px;
+          display: inline-block;
+          width: 50px;
+          height: 42px;
+          background: url('../images/icons-prev.svg') no-repeat;
+          background-size: 42px auto;
+          cursor:pointer;
+
+      }
+
+
+      .icons-next{
+          display: inline-block;
+          width: 50px;
+          height: 42px;
+          background: url('../images/icons-next.svg') no-repeat;
+          background-size: 42px auto;
+          cursor:pointer;
+
+      }
+ 
+
+      .icons-static{
+          display: inline-block;
+          width: 50px;
+          height: 42px;
+          cursor:pointer;
+          margin:0 10px;
+
+      }
+      .pause{
+          background: url('../images/icons-pause.svg') no-repeat;
+          background-size: 42px auto;
+      }
+      .play{
+          background: url('../images/icons-play.svg') no-repeat;
+          background-size: 42px auto;
+      }
+
+  }
+  .ctlright{
+    position:absolute;
+    right:0;
+    bottom:0;
+    margin-bottom:10px;
+    .icons-playway{
+          display: inline-block;
+          width: 50px;
+          height: 42px;
+
+          cursor:pointer;
+          margin:0 15px;      
+    }
+    .random{
+         background: url('../images/icons-random.svg') no-repeat;
+
+          background-size: 42px auto;
+    }
+    .circle{
+         background: url('../images/icons-circle.svg') no-repeat;
+         
+          background-size: 42px auto;
+    }
+    .allcircle{
+         background: url('../images/icons-allcircle.svg') no-repeat;
+         
+          background-size: 42px auto;
+    }
+
+  }
+}

@@ -1,0 +1,36 @@
+.CommentInput {
+  position: fixed;
+  bottom: 0;
+  z-index: 200;
+  width: 100%; }
+  .CommentInput .commentForm {
+    width: 100%;
+    position: relative; }
+    .CommentInput .commentForm .userInput {
+      display: block;
+      box-sizing: border-box;
+      width: 70%;
+      margin-right: 40px;
+      height: 30px;
+      border: 2px solid #FFAEAE;
+      outline: none;
+      font-size: 15px;
+      padding: 5px; }
+    .CommentInput .commentForm .btn-send {
+      width: 30%;
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 40px;
+      background: #FFAEAE;
+      border: none;
+      color: #FFFFFF;
+      line-height: 10px;
+      font-size: 15px;
+      outline: none; }
+    .CommentInput .commentForm .fontlimmit {
+      position: absolute;
+      right: 0;
+      top: 0; }
